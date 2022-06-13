@@ -2,11 +2,11 @@ package colorcoder;
 
 public class Main {
     
-   public final static String MajorColorNames[] = {
+   final static String MajorColorNames[] = {
         "White", "Red", "Black", "Yellow", "Violet"
     };
-    final static int numberOfMajorColors = MajorColorNames.length;
-    public final static String MinorColorNames[] = {
+   final static int numberOfMajorColors = MajorColorNames.length;
+   final static String MinorColorNames[] = {
         "Blue", "Orange", "Green", "Brown", "Slate"
     };
     final static int numberOfMinorColors = MinorColorNames.length;
