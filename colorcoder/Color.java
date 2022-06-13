@@ -1,6 +1,6 @@
 package colorcoder;
 
-public static interface Color{
+public interface Color{
 
         public static <E extends Enum<E>& Color>E fromIndex(int index) {
             for(E color: E.values()) {
