@@ -5,7 +5,7 @@ public class Test{
         MajorColor expectedMajor,
         MinorColor expectedMinor)
     {
-        ColorPair colorPair = GetColorFromPairNumber(pairNumber);
+        ColorPair colorPair = Main.GetColorFromPairNumber(pairNumber);
         System.out.println("Got pair " + colorPair.ToString());
         assert(colorPair.getMajor() == expectedMajor);
         assert(colorPair.getMinor() == expectedMinor);
@@ -16,7 +16,7 @@ public class Test{
         MinorColor minor,
         int expectedPairNumber)
     {
-        int pairNumber = GetPairNumberFromColor(major, minor);
+        int pairNumber = Main.GetPairNumberFromColor(major, minor);
         System.out.println("Got pair number " + pairNumber);
         assert(pairNumber == expectedPairNumber);
     }
