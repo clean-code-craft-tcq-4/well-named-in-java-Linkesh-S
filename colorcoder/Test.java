@@ -1,6 +1,6 @@
     package colorcoder;
 
-static class Test{
+class Test{
     static void testNumberToPair(int pairNumber,
         MajorColor expectedMajor,
         MinorColor expectedMinor)
