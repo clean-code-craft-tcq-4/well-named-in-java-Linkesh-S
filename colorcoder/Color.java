@@ -2,7 +2,7 @@ package colorcoder;
 
 public interface Color{
 
-        static int index;
+        static int index=0;
         int getIndex() {
             return index;
         }
