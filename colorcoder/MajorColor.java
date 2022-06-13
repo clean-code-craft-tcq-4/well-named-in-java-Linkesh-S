@@ -6,7 +6,7 @@ enum MajorColor implements Color{
         BLACK(2),
         YELLOW(3),
         VIOLET(4);
-  private int index;
+  
         @Override
         int getIndex() {
             return index;
