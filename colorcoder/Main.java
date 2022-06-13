@@ -24,10 +24,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
-        testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
+        Test test;
+       test.testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
+        test.testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
     
-        testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
-        testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+        test.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
+        test.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
     }
 }
