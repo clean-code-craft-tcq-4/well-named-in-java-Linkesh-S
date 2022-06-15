@@ -22,6 +22,13 @@ public class Main {
     static int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
         return major.getIndex() * numberOfMinorColors + minor.getIndex() + 1;
     }
+    static void printManual() {
+        int count = 1;
+        for(int i = 0 ; i< MajorColorNames.length ; i++) {
+            for(int j = 0; j<MinorColorNames.length ; j++) {
+                 System.out.println(count + " | " + MajorColorNames[i] + " | " + MinorColorNames[j]);
+                 count++;
+            }
 
     public static void main(String[] args) {
         Test test= new Test();
@@ -30,5 +37,6 @@ public class Main {
     
         test.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         test.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+        this.printManual();
     }
 }
