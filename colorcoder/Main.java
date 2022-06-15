@@ -29,6 +29,8 @@ public class Main {
                  System.out.println(count + " | " + MajorColorNames[i] + " | " + MinorColorNames[j]);
                  count++;
             }
+        }
+    }
 
     public static void main(String[] args) {
         Test test= new Test();
