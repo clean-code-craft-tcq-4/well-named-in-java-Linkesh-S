@@ -39,6 +39,6 @@ public class Main {
     
         test.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         test.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
-        this.printManual();
+        printManual();
     }
 }
