@@ -26,7 +26,7 @@ public class Main {
         int count = 1;
         for(int i = 0 ; i< MajorColorNames.length ; i++) {
             for(int j = 0; j<MinorColorNames.length ; j++) {
-                 System.out.println(count + " | " + MajorColorNames[i] + " | " + MinorColorNames[j]);
+                 System.out.println(count + " - " + MajorColorNames[i] + " & " + MinorColorNames[j]);
                  count++;
             }
         }
